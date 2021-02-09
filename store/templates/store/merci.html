@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <hr>
+    <h1 class="intro-text text-center">Merci !</h1>
+    <hr class="detail-separator">
+    <p>L'album <em>{{ album_title }}</em> has just been removed from the shelves. A delicate hand placed your name on its blanket and put it away while waiting for you. Hurry up! <em> {{album_title}} </em> is impatient and already sings your praises.</p>
+    <hr>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZSbuikMdgqA" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+{% endblock %}

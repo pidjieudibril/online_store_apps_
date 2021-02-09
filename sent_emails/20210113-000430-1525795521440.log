@@ -1,0 +1,13 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: pidjieudibril@gmail.com
+Date: Wed, 13 Jan 2021 00:04:30 -0000
+Message-ID: <161049627079.11776.10067064466264474567@DESKTOP-509LOCS>
+
+Someone asked for password reset for email pidjieudibril@gmail.com.Follow the Link below
+http://127.0.0.1:8000{% url "authapp:password_reset_confirm"
+uidb64=uid token=token %}
+-------------------------------------------------------------------------------
